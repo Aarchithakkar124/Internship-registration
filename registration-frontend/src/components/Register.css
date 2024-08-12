@@ -1,0 +1,100 @@
+/* Basic body styling */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for the form */
+  .form-container {
+    background-color: #11e2d1;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(25, 167, 233, 0.1);
+    width: 350px;
+    max-width: 100%;
+  }
+  
+  /* Styling for the form heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Styling for form labels */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  /* Styling for input fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Focus effect for input fields */
+  input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+  }
+  
+  /* Styling for the submit button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: -12px;
+    margin-bottom: 16px;
+  }
+  
+  /* Link styling for additional options */
+  small {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: #777;
+  }
+  
+  small a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  small a:hover {
+    text-decoration: underline;
+  }
+  
